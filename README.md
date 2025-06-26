@@ -1,8 +1,20 @@
-# React + Vite
+# Storelane Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Storelane e-commerce platform, built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern UI built with React and Tailwind
+- API integration with backend (deployed on Railway)
+- Responsive design
+- Authentication and product management support
+
+## 📦 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Axios (or Fetch)
+- Context API / Recoil
+
+## 🛠️ Getting Started
+
