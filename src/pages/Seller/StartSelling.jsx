@@ -74,7 +74,7 @@ export const SellerPage = () => {
 
     return (
         <div className="w-full sm:w-auto flex justify-center sm:justify-start">
-            {!isLoggedIn || !isSeller ? (
+            {!token || !isSeller ? (
             <a
                 href="/seller"
                 className="border border-amber-500 text-amber-600 bg-white px-4 py-2 rounded-lg font-medium 
