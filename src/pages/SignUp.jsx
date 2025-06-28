@@ -43,11 +43,11 @@ export const SignUpApp = () => {
 
     const handleSubmit = async () => {
         try {
-        const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/user/signup`, {
-            username,
-            firstName,
-            lastName,
-            password,
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/user/signup`, {
+                username,
+                firstName,
+                lastName,
+                password,
         });
 
         if (response.data.token) {
